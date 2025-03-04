@@ -28,7 +28,7 @@ r2 = r2_score(y_test, pred)
 print(f"Mean Squared Error: {mse:.2f}")
 print(f"R² Score: {r2:.2f}")
 
-plt.figure(figsize=(8, 6))
+plt.figure(figsize=(10, 6))
 
 # Scatter plot of actual vs predicted values
 sns.scatterplot(x=y_test, y=pred, color='blue', alpha=0.6)
